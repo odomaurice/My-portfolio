@@ -72,6 +72,8 @@ body{
     color: #808080;
 }
 
+
+
 @media (max-width:974px){
 
     .portfolio-div{
@@ -86,7 +88,11 @@ body{
     font-family: 'Poppins';
 
 }
-
+@media (max-width:536px) {
+    #Portfolio-heading{
+        padding: 0;
+    }
+}
 @media (max-width:974px){
 
     .portfolio-div{
