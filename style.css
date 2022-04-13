@@ -132,7 +132,6 @@ body{
 #contact-div{
     display: flex;
     flex-direction: column;
-    padding: 3rem 4rem;
     color: #00ff6c;
     text-align: center;
     font-family: 'Poppins';
@@ -154,7 +153,7 @@ body{
 @media (max-width:974px){
 
     #contact-div{
-        padding: 2rem;
+        padding: 0;
     }
 
 }
