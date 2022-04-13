@@ -11,17 +11,31 @@ body{
         font-size: 2rem;
     }
 }
-bg-light{
-    font-family: 'Merriweather';
+
+@media (max-width:974px){
+
+    body{
+        padding: 2rem;
+    }
+
 }
+
 
 #feature-div{
     text-align: center;
     font-family: 'Poppins';
-    padding: 3rem 6rem;
+    padding: 3rem 4rem;
     background-color: #000;
     color: #808080;
     
+
+}
+
+@media (max-width:974px){
+
+    #feature-div{
+        padding: 2rem;
+    }
 
 }
 
@@ -36,43 +50,89 @@ bg-light{
 .intro-div{
     text-align: center;
     font-family: 'Poppins';
-    padding: 3rem 5rem;
+    padding: 3rem 4rem;
     background-color: #000;
     color: #808080;
     
 }
 
+@media (max-width:974px){
+
+    .intro-div{
+        padding: 2rem;
+    }
+
+}
+
 .portfolio-div{
-    padding: 3rem 5rem;
+    padding: 3rem 4rem;
     text-align: center;
     font-family: 'Poppins';
     background-color: #000;
     color: #808080;
 }
+
+@media (max-width:974px){
+
+    .portfolio-div{
+        padding: 2rem;
+    }
+
+}
 #portfolio-heading{
-    padding: 3rem 5rem;
+    padding: 3rem 4rem;
     color: #00ff6c;
     text-align: center;
     font-family: 'Poppins';
 
 }
+
+@media (max-width:974px){
+
+    .portfolio-div{
+        padding: 2rem;
+    }
+
+}
 .portfolio-img{
     width: 5%;
 }
+@media (max-width:1158px){
+
+    .portfolio-img{
+        max-width: 30%;
+    }
+
+}
+
+@media (max-width:1158px){
+
+    .work-img{
+        max-width: 50%;
+    }
+
+}
 
 #About-div{
-    padding: 3rem 5rem;
+    padding: 3rem 4rem;
     text-align: center;
     font-family: 'Poppins';
     background-color: #000;
     color: #808080;
+
+}
+@media (max-width:974px){
+
+    #About-div{
+        padding: 2rem;
+    }
 
 }
 
 #contact-div{
     display: flex;
     flex-direction: column;
-    padding: 3rem 5rem;
+    padding: 3rem 4rem;
     color: #00ff6c;
     text-align: center;
     font-family: 'Poppins';
@@ -89,5 +149,13 @@ bg-light{
 
 .contact-link{
     text-decoration: none;
+}
+
+@media (max-width:974px){
+
+    #contact-div{
+        padding: 2rem;
+    }
+
 }
 
