@@ -1,0 +1,93 @@
+*{box-sizing: border-box;}
+
+body{
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: #000;
+}
+
+@media (min-width: 1978px){
+    body{
+        font-size: 2rem;
+    }
+}
+bg-light{
+    font-family: 'Merriweather';
+}
+
+#feature-div{
+    text-align: center;
+    font-family: 'Poppins';
+    padding: 3rem 6rem;
+    background-color: #000;
+    color: #808080;
+    
+
+}
+
+
+
+.feature-img{
+    width: 100px;
+    border-radius: 50%;
+    padding-top: 1rem;
+}
+
+.intro-div{
+    text-align: center;
+    font-family: 'Poppins';
+    padding: 3rem 5rem;
+    background-color: #000;
+    color: #808080;
+    
+}
+
+.portfolio-div{
+    padding: 3rem 5rem;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: #000;
+    color: #808080;
+}
+#portfolio-heading{
+    padding: 3rem 5rem;
+    color: #00ff6c;
+    text-align: center;
+    font-family: 'Poppins';
+
+}
+.portfolio-img{
+    width: 5%;
+}
+
+#About-div{
+    padding: 3rem 5rem;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: #000;
+    color: #808080;
+
+}
+
+#contact-div{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 5rem;
+    color: #00ff6c;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: #000;
+}
+
+#contact-heading,#About-heading,#feature-heading,#portfolio-heading{
+    color: #00ff6c;
+    margin: 6rem 0;
+    border-bottom: 2px solid #808080 ;
+    
+    text-decoration: none;
+}
+
+.contact-link{
+    text-decoration: none;
+}
+
