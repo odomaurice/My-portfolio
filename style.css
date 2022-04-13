@@ -4,6 +4,7 @@ body{
     text-align: center;
     font-family: 'Poppins';
     background-color: #000;
+    margin: 0;
 }
 
 @media (min-width: 1978px){
