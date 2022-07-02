@@ -1,0 +1,194 @@
+*{box-sizing: border-box;}
+
+body{
+    text-align: center;
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+.light-mode {
+    background-color: #fff;
+    color: red;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #00ff6c;
+}
+
+@media (min-width: 1978px){
+    body{
+        font-size: 2rem;
+    }
+}
+@media (max-width:974px){
+
+    body{
+        padding: 0.5rem;
+    }
+
+}
+
+
+
+#feature-div{
+    text-align: center;
+    font-family: 'Poppins';
+    padding: 3rem 6rem;
+    background-color: #000;
+    color: #808080;
+    
+
+}
+
+@media (max-width:974px){
+
+    #feature-div{
+        padding: 1rem;
+    }
+
+}
+
+
+
+.feature-img{
+    width: 200px;
+     border-radius: 50%; 
+    padding-top: 1rem;
+}
+
+.intro-div{
+    text-align: center;
+    font-family: 'Poppins';
+    padding: 3rem 4rem;
+    background-color: #000;
+    color: #808080;
+    
+}
+
+@media (max-width:974px){
+
+    .intro-div{
+        padding: 2rem;
+    }
+
+}
+
+.portfolio-div{
+    padding: 3rem 4rem;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: #000;
+    color: #808080;
+}
+
+@media (max-width:974px){
+
+    .portfolio-div{
+        padding: 2rem;
+    }
+
+}
+#portfolio-heading{
+    padding: 3rem 5rem;
+    color: #00ff6c;
+    text-align: center;
+    font-family: 'Poppins';
+
+}
+
+@media (max-width:1098px){
+
+    #portfolio-heading{
+        padding: 2rem;
+    }
+
+}
+.portfolio-img{
+    width: 5%;
+}
+
+@media (max-width:1158px){
+
+    .portfolio-img{
+        max-width: 30%;
+    }
+
+}
+
+@media (max-width:1158px){
+
+    .work-img{
+        max-width: 50%;
+    }
+
+}
+
+
+
+#About-div{
+    padding: 3rem 5rem;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: #000;
+    color: #808080;
+
+}
+
+@media (max-width:974px){
+
+    #About-div{
+        padding: 2rem;
+    }
+
+}
+
+#contact-div{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4rem;
+    color: #00ff6c;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: #000;
+}
+
+#contact-heading,#About-heading,#feature-heading,#portfolio-heading{
+    color: #00ff6c;
+    margin: 4rem 0;
+    border-bottom: 2px solid #808080 ;
+    
+    text-decoration: none;
+}
+
+.contact-link{
+    text-decoration: none;
+}
+
+@media (max-width:974px){
+
+    #contact-div{
+        padding: 2rem;
+    }
+
+}
+
+.chat-us img{
+      width: 10%;
+     }
+     /* #chat-section{
+      width: 50%;
+     } */
+
+     #message{
+      width: 80%;
+     }
+
+     .form-div{
+        padding: 2rem;
+        margin: 1.5rem;
+     }
+
+
+
+

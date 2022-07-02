@@ -1,14 +1,23 @@
-   
+    <!DOCTYPE html>
     <html lang="en">
     <head>
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--CSS LINKS-->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/style.css">
         <!--BOOTSTRAP LINKS CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- SWEETALERT -->
+
+       <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
         <!--FONT AWESOME-->
 
@@ -25,9 +34,12 @@
     </head>
     <body>
 
+      
+
         <nav style="font-family: 'Poppins'; font-size: 20px;" class="navbar navbar-expand-lg navbar-light  bg-dark">
             <div class="container-fluid">
               <a style="border: 5px solid #00ff6c;" class="navbar-brand btn btn-outline-success text-white" href="#">Contact</a>
+              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -52,10 +64,10 @@
 
           <div id="feature-div"><h2> <a id="feature-heading"  href="#">Hey, I'm Maurice</a> </h2>
                 <img class="feature-img" src="images\1635777333611.png">
-           
+
         </div>
 
-           <div class="intro-div"><h3>A frontend developer specializing in Javascript, CSS, HTML and frameworks such as Bootstrap and JQuery.</h3>
+           <div class="intro-div"><h3>A frontend developer specializing in Javascript, CSS, HTML, Sass pre-processor, Reactjs and frameworks such as Bootstrap, Material UI and JQuery. I also have basic knowledge of Nodejs, ejs, expressjs and authentication</h3>
           </div>
 
 
@@ -64,34 +76,34 @@
 
               <p>The experiences of life springing from relationship with people aided me to develop some interpersonal skills which are instrumental in varios aspects of life such as: collaborative skills, time management, love for invention, multi-tasking, independent studies and learning etc.I am glad that I'm finally enrolled into the field I've always loved, in constant encounter with the world of web programming. The journey itself isn't an easy one like all aspects of life, but tough situations define tough people and as an ambitious young man, I have set various goals and aspirations for myself to enable me make great waves in the tech world.</p> <br>
 
-              <a class="contact-link" href="Resume.pdf\01 Maurice Odo resume.pdf">View Resume</a> <br>
+              <a class="contact-link text-hover-secondary" href="Resume.pdf\01 Maurice Odo resume.pdf">View Resume</a> <br>
           </div>
 
           <div class="portfolio-div"><h5 > <a id="portfolio-heading" href="#">Recent Projects</a></h5>
                <img class="portfolio-img" src="images\down-arrow.png" alt="">
 
-               <h4>ALPHA ENERGY</h4>
+               <h4 class="text-hover-secondary">ALPHA ENERGY</h4>
                <P>I developed a responsive website with basic html, CSS, Javascript and bootstrap. This is a weight loss company website that helps clients to live healthily through dieting and exercising.</P>
                <div>
                 <div><img class="work-img" src="images\alpha mobile.jpg" alt="" width="20%"> <br> <p>Mobile version</p></div>
                  <div><img class="work-img" src="images\alpha desktop.jpg" alt="" width="50%"><br><p>Desktop version</p></div><br>
                 </div>
-                <a class="contact-link" href="https://odomaurice.github.io/Alpha-energy/index.html">Click to open website</a><br>
+                <a class="contact-link text-hover-secondary" target="_blank" href="https://odomaurice.github.io/Alpha-energy/index.html">Click to open website</a><br>
 
-                <h4>MY PORTFOLIO (this site!!)</h4>
+                <h4 class="text-hover-secondary">MY PORTFOLIO (this site!!)</h4>
                 <P>An outstounding, user friendly and accessible personal portfolio website with a sleek and ark UI and bright text colours. Formspree is used to handle form submissions. Poppins used as typography to create seamless and undaunted user-experience. </P>
                 <div>
                  <div><img class="work-img" src="images\portfolio mobile.jpg" alt="" width="20%"> <br> <p>Mobile version</p></div>
                   <div><img class="work-img" src="images\portfolio desktop.jpg" alt="" width="50%"><br><p>Desktop version</p></div><br>
                  </div>
-                 <a class="contact-link" href="https://odomaurice.github.io/My-portfolio/index.html">Click to open website</a><br>
-                 
-                 
-                
-                <h4>ARKINVEST</h4>
-               <P>Arkinvest is a clone website of Ark invest which I developed with noticeable differences. It's a company that works with investors to maximise profits through investing in various sectors such as: cryptocurrency, real-estate, foreign-exchange etc. This is the updated responsive version after I learnt how to build responsive websites</P>
-                <div><img class="work-img" src="images\Arkinvest mobile.jpg" alt="" width="20%"> <br> <p>Mobile version</p></div>
-                 <div><img class="work-img" src="images\Arkinvest desktop.jpg" alt="" width="50%"><br><p>Desktop version</p></div><br> <a class="contact-link" href="https://odomaurice.github.io/Arkinvest-updated">Click to open website</a>
+                 <a class="contact-link text-hover-secondary" target="_blank" href="https://odomaurice.github.io/My-portfolio/index.html">Click to open website</a><br>
+
+
+
+                <h4 class="text-hover-secondary">CYCLEPAY</h4>
+               <P>Cyclepay is a Crypto-based company that's into maximizing client profits through various means: stocks, real-estate, foreign-exchange etc. A multi-page website built using Nodejs, expressjs, embedded javascript template then sass and bootstrap for the styling. Fully responsive on all mobile and desktop sizes</P>
+                <div><img  class="work-img" src="images/cycle mobile.jpg" alt="" width="20%"> <br> <p>Mobile version</p></div>
+                 <div><img class="work-img"  src="images/cycle desktop.jpg" alt="" width="50%"><br><p>Desktop version</p></div><br> <a class="contact-link text-hover-secondary" target="blank" href="https://glacial-dawn-07822.herokuapp.com/">Click to open website</a>
                 </div>
               </div>
 
@@ -100,35 +112,67 @@
                 <div><h4>EMAIL</h4><br><a class="contact-link" href="odomaurice@yahoo.com">Email account</a></div><br>
                 <div><h4></h4><br><a class="contact-link" href="odomaurice501@gmail.com">Gmail account</a></div><br>
                 <div><h4>LINKEDIN</h4> <br>
-                <a class="contact-link" href=" https://linkedin.com/in/odo-maurice-b99197198">Linkedin account</a></div><br>
+                <a class="contact-link" href=" https://github.com/odomaurice">Linkedin account</a></div><br>
                 <div><h4>TWITTER</h4><br>
-                <a class="contact-link"  href="https://twitter.com/MauriceOdo1">Twitter account</a></div><br>
+                <a class="contact-link"  href=" twitter.com/MauriceOdo1">Twitter account</a></div><br>
                 <div><h4>GITHUB</h4><br><a class="contact-link"  href=" https://github.com/odomaurice">Github account</a></div><br>
                 <div><h4>CODEPEN</h4><br><a class="contact-link" href=" codepen.io/odomaurice">Codepen account</a></div><br>
 
-                <h4>Send me a message:</h4>
-               <div class="form-div">
+                
+
+                <div id="chat-section"><h2>Send us a message:</h2>
+               <div class="form-div m-3 p-3">
                 <form action="https://formspree.io/f/mlezpnpv" method="post">
                   <label for="first name">First name:</label><br>
-                 <input type="text" id="first name" name="first name"><br><br>
-                 <label for="last name">Last name:</label><br>
-                  <input type="text" id="last name" name="last name"><br><br>
+                  <input id="message"  type="text" id="first name" name="first name"><br><br>
+                  <label for="last name">Last name:</label><br>
+                  <input id="message" type="text" id="last name" name="last name"><br><br>
                   <label for="email">Email:</label><br>
-                  <input type="email" name="email" id="email"><br><br>
+                  <input id="message" type="text" id="email" name="email" id="email"><br><br>
                   <label for="message">Message</label><br>
                   <textarea name="message" id="message" cols="30" rows="10"></textarea><br><br>
-                   <div  class="d-grid gap-2 col-4 mx-auto">
-                  <input class="btn btn-success btn-lg" type="submit" value="Submit"><br>
-                   </div>
-                  
+                  <div class=""  >
+                  <input id="button-reply"   class="btn-outlined-secondary text-hover-white text-secondary" type="submit" value="Submit"></button><br></div>
+                              </div>
+
                 </form>
+                </div>
               </div>
 
-        
-        
-          <!--Bootstrap Jquery-->    
+
+              <script>
+       darkMode = () => {
+        var element = document.body;
+        element.className = "dark-mode";
+      }
+      function lightMode() {
+        var element = document.body;
+        element.className = "light-mode";
+      }
+    </script>
+
+
+         <script>
+    $('.menu-toggle').click(function() {
+  
+  $('.site-nav').toggleClass('site-nav--open', 500);
+  $(this).toggleClass('open');
+  
+   })
+   </script>
+
+   <script>
+    $("#button-reply").click(function(){
+      swal("Thanks for reaching out!", " will get back to you shortly!", "success");
+    })
+   </script>
+             
+
+
+
+          <!--Bootstrap Jquery-->
           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-          
+
     </body>
     </html>
