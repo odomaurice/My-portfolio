@@ -194,7 +194,7 @@ input[type="checkbox"]{
     height: 40px;
     border-radius: 50px;
     outline: none;
-    background-image: url("../images/toggle1.png");
+    background-image: url("images/toggle1.png");
     background-size: cover; 
 }
 
@@ -217,5 +217,5 @@ input[type="checkbox"]:checked::before{
 }
 
  input[type="checkbox"]:checked{
-    background-image: url("../images/toogle4.jpg");
+    background-image: url("images/toogle4.jpg");
 } 
