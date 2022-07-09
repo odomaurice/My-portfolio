@@ -1,11 +1,39 @@
 *{box-sizing: border-box;}
 
-body{
-    text-align: center;
-    font-family: 'Poppins';
-    background-color: #000;
-    margin: 0;
+
+
+/* variables */
+
+*>*{
+    font-family: 'Poppins', cursive;
 }
+
+
+
+
+body{
+    --text-light: rgba(243,244,246,0.9);
+    --primary-dark: #fff;
+    --secondary-dark: rgba(55,65,81,0.7);
+    --bg-light:rgba(243,244,246,0.3);
+    --bg-btn:rgba(67,56,202,0.8);
+     background-color: #fff ; 
+     color: #000;
+}
+
+body.dark{
+    --text-light: rgba(55,65,81,1);
+    --primary-dark: rgba(55,65,81,1);
+    --secondary-dark: rgba(243,244,246,0.3);
+    --bg-btn: rgba(219,233,29,0.897);
+    --bg-light:rgba(45,49,54,0.5);
+    background-color: #000;
+    color: rgba(243,244,246,0.3);
+}
+
+
+
+ 
 
 @media (min-width: 1978px){
     body{
@@ -26,8 +54,7 @@ body{
     text-align: center;
     font-family: 'Poppins';
     padding: 3rem 4rem;
-    background-color: #000;
-    color: #808080;
+
     
 
 }
@@ -52,8 +79,7 @@ body{
     text-align: center;
     font-family: 'Poppins';
     padding: 3rem 4rem;
-    background-color: #000;
-    color: #808080;
+    
     
 }
 
@@ -69,8 +95,7 @@ body{
     padding: 3rem 4rem;
     text-align: center;
     font-family: 'Poppins';
-    background-color: #000;
-    color: #808080;
+    
 }
 
 
@@ -124,9 +149,7 @@ body{
     padding: 3rem 4rem;
     text-align: center;
     font-family: 'Poppins';
-    background-color: #000;
-    color: #808080;
-
+    
 }
 @media (max-width:974px){
 
@@ -142,7 +165,6 @@ body{
     color: #00ff6c;
     text-align: center;
     font-family: 'Poppins';
-    background-color: #000;
 }
 
 #contact-heading,#About-heading,#feature-heading,#portfolio-heading{
@@ -164,3 +186,36 @@ body{
     }
 
 }
+
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    position: relative;
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    background-image: url("../images/toggle1.png");
+    background-size: cover; 
+}
+
+input[type="checkbox"]::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background-color: var(--primary-dark);
+    border-radius: 50px;
+
+
+}
+
+input[type="checkbox"]:checked::before{
+    transform: translate(100%);
+
+}
+
+ input[type="checkbox"]:checked{
+    background-image: url("../images/toogle4.jpg");
+} 
